@@ -156,6 +156,11 @@ body {
     opacity: 1;
 }
 
+.social-icons .fa:focus {
+    opacity: 1;
+}
+
+
 .social-icons .fa-adn{background-color:#504e54;}
 .social-icons .fa-apple{background-color:#aeb5c5;}
 .social-icons .fa-android{background-color:#A5C63B;}
