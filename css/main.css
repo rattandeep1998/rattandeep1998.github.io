@@ -156,7 +156,11 @@ body {
     opacity: 1;
 }
 
-.social-icons .fa:focus {
+/*.social-icons .fa:focus {*/
+    /*opacity: 1;*/
+/*}*/
+
+.social-icons .fa:active {
     opacity: 1;
 }
 
