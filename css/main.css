@@ -15,11 +15,10 @@
 
 #particles-js {
     position: absolute;
-    height: 125%;
+    height: 210%;
     width: 100%;
     z-index: -9999;
     margin-top: -25%;
-
 }
 
 html {
@@ -457,11 +456,14 @@ textarea {
         padding: 2%;
     }
 
+    #particles-js {
+        height: 250%;
+    }
+
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px){
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     /* Style adjustments for viewports that meet the condition */
-
     #frame {
         margin: 20% 5%;
         border-radius: 5px;
@@ -479,8 +481,10 @@ textarea {
         padding: 2%;
     }
 
+    #particles-js {
+        height: 260%;
+    }
 }
-
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
        (min-resolution: 1.25dppx),
