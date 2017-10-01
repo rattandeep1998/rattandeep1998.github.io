@@ -13,6 +13,14 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 @import url('https://fonts.googleapis.com/css?family=Bitter|Roboto|Germania+One|Pacifico|Droid+Sans');
 
+#particles-js {
+    position: absolute;
+    height: 125%;
+    width: 100%;
+    z-index: -9999;
+    margin-top: -25%;
+
+}
 
 html {
     color: #222;
@@ -24,6 +32,8 @@ body {
     font-family: 'Roboto', sans-serif;
     background: linear-gradient(135deg, #F76B1D 0%, #F76B1D 30%, #ffb631 100%) fixed;
     text-align: center;
+    width: 100%;
+    height:100%;
 }
 
 #frame {
